@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Bahij';
+    src: url('../fonts/alfont_com_ArbFONTS-Bahij_TheSansArabic-Plain.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+:root {
+--containerColor: #fff;
+--bodyColor: #ECF2F5;
+--btnColor: #1B3E5D;
+--mainColorLight: #5767aa;
+--secondaryColor: #db2b39;
+--textColor: #131111;
+--activeColor: #00d1bd;
+--textHomeColor: #2257f9;
+--borderColor: #ffff;
+}
+
+body {
+    font-family: "Bahij", sans-serif;
+    background-color: var(--bodyColor);
+}
+
+/* Login Page */
+
+.login-text-color {
+    color: var(--btnColor);
+}
+
+.login-btn-bg {
+    background-color: var(--btnColor);
+}
+
+.borderColor {
+    border: 2px solid var(--borderColor);
+}
