@@ -19,6 +19,7 @@ function StatsCard({ governorate, students, teachers, courses, presentStudents, 
           <p className="text-lg font-semibold">{students}</p>
         </div>
 
+ 
         {/* عدد الأساتذة */}
         <div className="bg-[#ECF2F5] text-[#1B3E5D] p-4 rounded-lg">
           <p className="text-4xl">
